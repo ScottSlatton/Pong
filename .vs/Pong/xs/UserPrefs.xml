@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{59972000-A102-93F3-E252-4AFE00D882C8}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/StartBtnBehavior.cs">
+    <Files>
+      <File FileName="Assets/Scenes/StartButton.cs" Line="9" Column="28" />
+      <File FileName="Assets/StartBtnBehavior.cs" Line="8" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Pong" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="55b17e06-7b25-41d8-b4b3-a66beaa9789e" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
