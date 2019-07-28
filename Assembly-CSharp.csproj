@@ -63,6 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BallMovement.cs" />
+    <Compile Include="Assets\Scripts\RacketPlayer1.cs" />
+    <Compile Include="Assets\Scripts\RacketPlayer2.cs" />
     <Compile Include="Assets\Scripts\StartBtnBehavior.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Development/Game/Pong/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
