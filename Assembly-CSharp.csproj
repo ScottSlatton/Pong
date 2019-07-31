@@ -62,12 +62,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BallMovement.cs" />
-    <Compile Include="Assets\Scripts\CollisionController.cs" />
-    <Compile Include="Assets\Scripts\RacketPlayer1.cs" />
-    <Compile Include="Assets\Scripts\RacketPlayer2.cs" />
-    <Compile Include="Assets\Scripts\ScoreController.cs" />
-    <Compile Include="Assets\Scripts\StartBtnBehavior.cs" />
+    <Compile Include="Assets\Resources\Scripts\BallMovement.cs" />
+    <Compile Include="Assets\Resources\Scripts\CollisionController.cs" />
+    <Compile Include="Assets\Resources\Scripts\RacketPlayer1.cs" />
+    <Compile Include="Assets\Resources\Scripts\RacketPlayer2.cs" />
+    <Compile Include="Assets\Resources\Scripts\RacketPlayer2AI.cs" />
+    <Compile Include="Assets\Resources\Scripts\ScoreController.cs" />
+    <Compile Include="Assets\Resources\Scripts\SoundController.cs" />
+    <Compile Include="Assets\Resources\Scripts\StartBtnBehavior.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Development/Game/Pong/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

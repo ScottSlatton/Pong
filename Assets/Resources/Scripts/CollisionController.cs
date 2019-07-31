@@ -37,15 +37,21 @@ public class CollisionController : MonoBehaviour
             this.BounceFromRacket(collision);
         } else if (collision.gameObject.name == "WallLeft")
         {
+            //increase score, then reset ball
+
             Debug.Log("Collision with the left wall");
             this.scoreController.GoalPlayer2();
-            //increase score, then reset ball
+            StartCoroutine(this.ballMovement.StartBall(true));
+            
         }
         else if (collision.gameObject.name == "WallRight")
         {
+            //increase score, then reset ball
+
             Debug.Log("Collision with the right wall");
             this.scoreController.GoalPlayer1();
-            //increase score, then reset ball
+            StartCoroutine(this.ballMovement.StartBall(false));
+
         }
 
     }
